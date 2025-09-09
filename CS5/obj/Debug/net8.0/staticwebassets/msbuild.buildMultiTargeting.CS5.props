@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CS5.props" />
+</Project>
