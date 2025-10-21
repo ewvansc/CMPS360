@@ -1,0 +1,15 @@
+/Users/ethanvanscoy/CMPS360/mod4/bin/Debug/net8.0/mod4
+/Users/ethanvanscoy/CMPS360/mod4/bin/Debug/net8.0/mod4.deps.json
+/Users/ethanvanscoy/CMPS360/mod4/bin/Debug/net8.0/mod4.runtimeconfig.json
+/Users/ethanvanscoy/CMPS360/mod4/bin/Debug/net8.0/mod4.dll
+/Users/ethanvanscoy/CMPS360/mod4/bin/Debug/net8.0/mod4.pdb
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/mod4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/mod4.AssemblyInfoInputs.cache
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/mod4.AssemblyInfo.cs
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/mod4.csproj.CoreCompileInputs.cache
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/mod4.sourcelink.json
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/mod4.dll
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/refint/mod4.dll
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/mod4.pdb
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/mod4.genruntimeconfig.cache
+/Users/ethanvanscoy/CMPS360/mod4/obj/Debug/net8.0/ref/mod4.dll
