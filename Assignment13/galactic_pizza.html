@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Galactic Pizza Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1020;
+            color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            border-bottom: 2px solid #444;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .restaurant-meta p {
+            margin: 4px 0;
+        }
+        #menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+        }
+        .pizza-card {
+            background: #151b30;
+            border-radius: 8px;
+            padding: 12px 14px;
+            border: 1px solid #2b3355;
+        }
+        .pizza-name {
+            margin-top: 0;
+            margin-bottom: 6px;
+        }
+        .pizza-price {
+            font-weight: bold;
+        }
+        .pizza-meta {
+            font-size: 0.9rem;
+            margin: 4px 0;
+        }
+        .pizza-description {
+            font-size: 0.9rem;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1 id="restaurant-name">Galactic Pizza - Downtown Pittsburgh</h1>
+    <div class="restaurant-meta">
+        <p id="restaurant-address">123 Spaceway Blvd, Pittsburgh, PA 15222</p>
+        <p id="restaurant-phone">(412) 555-4242</p>
+        <p id="restaurant-hours">Hours: Sun–Thu 11am–10pm, Fri–Sat 11am–12am</p>
+    </div>
+</header>
+
+<main>
+    <h2>Featured Pizzas</h2>
+    <section id="menu">
+        <article class="pizza-card" data-sku="GP-001">
+            <h3 class="pizza-name">Milky Way Margherita</h3>
+            <p class="pizza-price">$14.99</p>
+            <p class="pizza-meta pizza-size">Size: Large (14")</p>
+            <p class="pizza-meta pizza-calories">Calories: 1200</p>
+            <p class="pizza-meta pizza-vegetarian">Vegetarian: Yes</p>
+            <p class="pizza-meta pizza-crust">Crust: Thin</p>
+            <p class="pizza-meta pizza-rating">Rating: 4.7</p>
+            <p class="pizza-meta pizza-category">Category: Classic</p>
+            <p class="pizza-meta pizza-spice-level">Spice Level: Mild</p>
+            <p class="pizza-description">
+                Fresh mozzarella, basil, and San Marzano tomatoes with olive oil drizzle.
+            </p>
+        </article>
+
+        <article class="pizza-card" data-sku="GP-002">
+            <h3 class="pizza-name">Black Hole BBQ Chicken</h3>
+            <p class="pizza-price">$17.49</p>
+            <p class="pizza-meta pizza-size">Size: Medium (12")</p>
+            <p class="pizza-meta pizza-calories">Calories: 1450</p>
+            <p class="pizza-meta pizza-vegetarian">Vegetarian: No</p>
+            <p class="pizza-meta pizza-crust">Crust: Hand-Tossed</p>
+            <p class="pizza-meta pizza-rating">Rating: 4.5</p>
+            <p class="pizza-meta pizza-category">Category: Specialty</p>
+            <p class="pizza-meta pizza-spice-level">Spice Level: Medium</p>
+            <p class="pizza-description">
+                BBQ sauce base, grilled chicken, red onions, smoked gouda, and cilantro.
+            </p>
+        </article>
+
+        <article class="pizza-card" data-sku="GP-003">
+            <h3 class="pizza-name">Nebula Veggie Explosion</h3>
+            <p class="pizza-price">$16.25</p>
+            <p class="pizza-meta pizza-size">Size: Large (14")</p>
+            <p class="pizza-meta pizza-calories">Calories: 1300</p>
+            <p class="pizza-meta pizza-vegetarian">Vegetarian: Yes</p>
+            <p class="pizza-meta pizza-crust">Crust: Stuffed</p>
+            <p class="pizza-meta pizza-rating">Rating: 4.9</p>
+            <p class="pizza-meta pizza-category">Category: Veggie</p>
+            <p class="pizza-meta pizza-spice-level">Spice Level: Mild</p>
+            <p class="pizza-description">
+                Mushrooms, bell peppers, red onions, olives, and spinach with feta crumble.
+            </p>
+        </article>
+    </section>
+</main>
+</body>
+</html>
